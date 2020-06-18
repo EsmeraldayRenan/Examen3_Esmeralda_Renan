@@ -84,7 +84,7 @@ print("Combinaciones <Comprensión de listas> 30pts.")
 HT = ['Lupa', 'Cepillo', 'Martillo y Cincel', 'Camara Fotografica', 'Piqueta']
 HS = ['Lampara', 'Pedernal', 'Olla', 'Cuchillo']
 CP = ['Atun Enlatados', 'Frijoles Enlatados', 'Comida Militar', 'Carne Seca']
-UN = [ [A,B,C] for A in HT for B in HS for C in CP]
+UN = [ [a,b,c] for a in HT for b in HS for c in CP]
 print(UN)
 PS = len(UN)
 print('La cantidad de combinaciones es:', PS)
